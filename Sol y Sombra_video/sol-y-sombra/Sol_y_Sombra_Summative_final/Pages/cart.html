@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your basket — Sol &amp; Sombra</title>
+  <meta name="description" content="Review your Sol &amp; Sombra basket: change quantities, remove items and see your total before checkout.">
+  <link rel="icon" href="../media/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html"><img src="../media/logo.png" alt="" width="480" height="209"> SOL <span>&amp;</span> SOMBRA</a>
+
+      <button id="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu ☰</button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Sunglasses</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="cart-link" href="cart.html" aria-current="page">Basket <span id="cart-count" class="cart-count" aria-label="items in basket">0</span></a>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <h1 class="section-title">Your basket</h1>
+
+    <!-- The whole basket (table, quantities, total or empty state)
+         is built by JavaScript DOM manipulation in script.js -->
+    <section id="cart-root" aria-live="polite" aria-label="Basket contents"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h2>Sol &amp; Sombra</h2>
+        <p>Sunglasses from the Mediterranean, shipped everywhere the sun reaches.</p>
+      </div>
+      <div>
+        <h2>Shop</h2>
+        <ul>
+          <li><a href="products.html">All sunglasses</a></li>
+          <li><a href="cart.html">Your basket</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Sol &amp; Sombra · Student project for CPU4104 Web Development</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

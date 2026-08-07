@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunglasses — Sol &amp; Sombra</title>
+  <meta name="description" content="Browse all Sol &amp; Sombra sunglasses: aviators, classics, round frames, sport wraps, shields and fiesta styles. Filter by category and add to your basket.">
+  <link rel="icon" href="../media/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html"><img src="../media/logo.png" alt="" width="480" height="209"> SOL <span>&amp;</span> SOMBRA</a>
+
+      <button id="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu ☰</button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" aria-current="page">Sunglasses</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="cart-link" href="cart.html">Basket <span id="cart-count" class="cart-count" aria-label="items in basket">0</span></a>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <h1 class="section-title">All sunglasses</h1>
+    <p>Twenty-five frames, six moods — new season arrivals just landed. Filter by category or scroll the lot; every pair carries UV400 lenses.</p>
+
+    <div class="filter-bar" role="group" aria-label="Filter products by category" style="margin-top:1rem;">
+      <button type="button" class="filter-btn active" data-filter="All">All</button>
+      <button type="button" class="filter-btn" data-filter="Aviator">Aviator</button>
+      <button type="button" class="filter-btn" data-filter="Shield">Shield</button>
+      <button type="button" class="filter-btn" data-filter="Sport">Sport</button>
+      <button type="button" class="filter-btn" data-filter="Classic">Classic</button>
+      <button type="button" class="filter-btn" data-filter="Round">Round</button>
+      <button type="button" class="filter-btn" data-filter="Retro">Retro</button>
+      <button type="button" class="filter-btn" data-filter="Fiesta">Fiesta</button>
+    </div>
+
+    <section class="product-grid" aria-label="Product list">
+
+      <article class="product-card" data-category="Aviator">
+        <img src="../media/product-01.jpg" alt="Round aviator sunglasses with gold frame and deep navy lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Puerto Azul</h2>
+          <p class="price">&euro;89.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="1" data-name="Puerto Azul" data-price="89"
+                  data-img="../media/product-01.jpg"
+                  aria-label="Add to basket: Puerto Azul">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Aviator">
+        <img src="../media/product-02.jpg" alt="Classic black aviator sunglasses with grey lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Nocturno</h2>
+          <p class="price">&euro;59.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="2" data-name="Nocturno" data-price="59"
+                  data-img="../media/product-02.jpg"
+                  aria-label="Add to basket: Nocturno">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Aviator">
+        <img src="../media/product-03.jpg" alt="Black-framed aviator sunglasses with bright red lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Rubi Roja</h2>
+          <p class="price">&euro;64.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="3" data-name="Rubi Roja" data-price="64"
+                  data-img="../media/product-03.jpg"
+                  aria-label="Add to basket: Rubi Roja">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Aviator">
+        <img src="../media/product-04.jpg" alt="Gold aviator sunglasses with orange mirrored lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Sol de Agosto</h2>
+          <p class="price">&euro;95.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="4" data-name="Sol de Agosto" data-price="95"
+                  data-img="../media/product-04.jpg"
+                  aria-label="Add to basket: Sol de Agosto">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Shield">
+        <img src="../media/product-05.jpg" alt="Two single-lens shield sunglasses, one bronze and one blue mirrored" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Shield</span>
+          <h2>Duna Escudo</h2>
+          <p class="price">&euro;120.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="5" data-name="Duna Escudo" data-price="120"
+                  data-img="../media/product-05.jpg"
+                  aria-label="Add to basket: Duna Escudo">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Sport">
+        <img src="../media/product-06.jpg" alt="Black wraparound sports sunglasses with rainbow mirrored lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Sport</span>
+          <h2>Arcoiris Sport</h2>
+          <p class="price">&euro;75.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="6" data-name="Arcoiris Sport" data-price="75"
+                  data-img="../media/product-06.jpg"
+                  aria-label="Add to basket: Arcoiris Sport">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Sport">
+        <img src="../media/product-07.jpg" alt="Red half-frame sports sunglasses with dark lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Sport</span>
+          <h2>Circuito Rojo</h2>
+          <p class="price">&euro;68.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="7" data-name="Circuito Rojo" data-price="68"
+                  data-img="../media/product-07.jpg"
+                  aria-label="Add to basket: Circuito Rojo">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Classic">
+        <img src="../media/product-08.jpg" alt="Wayfarer-style sunglasses with bright blue mirrored lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Classic</span>
+          <h2>Marea</h2>
+          <p class="price">&euro;49.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="8" data-name="Marea" data-price="49"
+                  data-img="../media/product-08.jpg"
+                  aria-label="Add to basket: Marea">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Classic">
+        <img src="../media/product-09.jpg" alt="Lime green framed sunglasses with dark lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Classic</span>
+          <h2>Lima Fresca</h2>
+          <p class="price">&euro;39.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="9" data-name="Lima Fresca" data-price="39"
+                  data-img="../media/product-09.jpg"
+                  aria-label="Add to basket: Lima Fresca">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Aviator">
+        <img src="../media/product-10.jpg" alt="Orange-framed aviator sunglasses reflecting a sunny beach scene" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Playa Espejo</h2>
+          <p class="price">&euro;55.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="10" data-name="Playa Espejo" data-price="55"
+                  data-img="../media/product-10.jpg"
+                  aria-label="Add to basket: Playa Espejo">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Round">
+        <img src="../media/product-11.jpg" alt="Round silver-framed sunglasses with green and blue mirrored lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Round</span>
+          <h2>Luna Verde</h2>
+          <p class="price">&euro;72.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="11" data-name="Luna Verde" data-price="72"
+                  data-img="../media/product-11.jpg"
+                  aria-label="Add to basket: Luna Verde">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Retro">
+        <img src="../media/product-12.jpg" alt="Maroon seventies-style sunglasses with amber gradient lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Retro</span>
+          <h2>Retro Granate</h2>
+          <p class="price">&euro;58.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="12" data-name="Retro Granate" data-price="58"
+                  data-img="../media/product-12.jpg"
+                  aria-label="Add to basket: Retro Granate">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Fiesta">
+        <img src="../media/product-13.jpg" alt="Bright blue party shutter shades" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Fiesta</span>
+          <h2>Persiana Azul</h2>
+          <p class="price">&euro;19.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="13" data-name="Persiana Azul" data-price="19"
+                  data-img="../media/product-13.jpg"
+                  aria-label="Add to basket: Persiana Azul">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Fiesta">
+        <img src="../media/product-14.jpg" alt="Pink heart-shaped sunglasses with rose gold frame" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Fiesta</span>
+          <h2>Corazon Rosa</h2>
+          <p class="price">&euro;25.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="14" data-name="Corazon Rosa" data-price="25"
+                  data-img="../media/product-14.jpg"
+                  aria-label="Add to basket: Corazon Rosa">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Classic">
+        <img src="../media/product-15.jpg" alt="Translucent purple sunglasses with green mirrored lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Classic</span>
+          <h2>Ultravioleta</h2>
+          <p class="price">&euro;45.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="15" data-name="Ultravioleta" data-price="45"
+                  data-img="../media/product-15.jpg"
+                  aria-label="Add to basket: Ultravioleta">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Round">
+        <img src="../media/product-16.jpg" alt="Round wire-framed sunglasses with red to pink gradient lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Round</span>
+          <h2>Cereza Redonda</h2>
+          <p class="price">&euro;52.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="16" data-name="Cereza Redonda" data-price="52"
+                  data-img="../media/product-16.jpg"
+                  aria-label="Add to basket: Cereza Redonda">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Round">
+        <span class="badge-new">New</span>
+        <img src="../media/product-17.jpg" alt="Round gold-framed sunglasses with orange and teal mirrored lenses in dramatic sunset light" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Round</span>
+          <h2>Atardecer Redondo</h2>
+          <p class="price">&euro;78.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="17" data-name="Atardecer Redondo" data-price="78"
+                  data-img="../media/product-17.jpg"
+                  aria-label="Add to basket: Atardecer Redondo">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Round">
+        <span class="badge-new">New</span>
+        <img src="../media/product-18.jpg" alt="Round black sunglasses with silver temples and dark grey lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Round</span>
+          <h2>Eclipse</h2>
+          <p class="price">&euro;85.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="18" data-name="Eclipse" data-price="85"
+                  data-img="../media/product-18.jpg"
+                  aria-label="Add to basket: Eclipse">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Retro">
+        <span class="badge-new">New</span>
+        <img src="../media/product-19.jpg" alt="Pink cat-eye sunglasses with green lenses and butterfly detail on the temples" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Retro</span>
+          <h2>Mariposa Rosa</h2>
+          <p class="price">&euro;92.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="19" data-name="Mariposa Rosa" data-price="92"
+                  data-img="../media/product-19.jpg"
+                  aria-label="Add to basket: Mariposa Rosa">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Aviator">
+        <span class="badge-new">New</span>
+        <img src="../media/product-20.jpg" alt="Gold-framed aviator sunglasses with classic green lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Dorada Clasica</h2>
+          <p class="price">&euro;99.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="20" data-name="Dorada Clasica" data-price="99"
+                  data-img="../media/product-20.jpg"
+                  aria-label="Add to basket: Dorada Clasica">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Sport">
+        <span class="badge-new">New</span>
+        <img src="../media/product-21.jpg" alt="Black and brown wraparound sports sunglasses with brown polarised lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Sport</span>
+          <h2>Sendero</h2>
+          <p class="price">&euro;62.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="21" data-name="Sendero" data-price="62"
+                  data-img="../media/product-21.jpg"
+                  aria-label="Add to basket: Sendero">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Aviator">
+        <span class="badge-new">New</span>
+        <img src="../media/product-22.jpg" alt="Close-up of silver aviator sunglasses with dark grey lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Aviator</span>
+          <h2>Plata Vista</h2>
+          <p class="price">&euro;70.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="22" data-name="Plata Vista" data-price="70"
+                  data-img="../media/product-22.jpg"
+                  aria-label="Add to basket: Plata Vista">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Classic">
+        <span class="badge-new">New</span>
+        <img src="../media/product-23.jpg" alt="Square sunglasses with a clear frame and orange to blue gradient mirrored lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Classic</span>
+          <h2>Cristal Atardecer</h2>
+          <p class="price">&euro;66.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="23" data-name="Cristal Atardecer" data-price="66"
+                  data-img="../media/product-23.jpg"
+                  aria-label="Add to basket: Cristal Atardecer">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Sport">
+        <span class="badge-new">New</span>
+        <img src="../media/product-24.jpg" alt="Amber translucent wraparound sports sunglasses with brown lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Sport</span>
+          <h2>Ambar Sport</h2>
+          <p class="price">&euro;59.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="24" data-name="Ambar Sport" data-price="59"
+                  data-img="../media/product-24.jpg"
+                  aria-label="Add to basket: Ambar Sport">Add to basket</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="Classic">
+        <span class="badge-new">New</span>
+        <img src="../media/product-25.jpg" alt="Black wayfarer-style sunglasses with dark green lenses" loading="lazy" width="300" height="180">
+        <div class="card-body">
+          <span class="category-tag">Classic</span>
+          <h2>Negra Clasica</h2>
+          <p class="price">&euro;82.00</p>
+          <button type="button" class="btn btn-primary add-btn"
+                  data-id="25" data-name="Negra Clasica" data-price="82"
+                  data-img="../media/product-25.jpg"
+                  aria-label="Add to basket: Negra Clasica">Add to basket</button>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h2>Sol &amp; Sombra</h2>
+        <p>Sunglasses from the Mediterranean, shipped everywhere the sun reaches.</p>
+      </div>
+      <div>
+        <h2>Shop</h2>
+        <ul>
+          <li><a href="products.html">All sunglasses</a></li>
+          <li><a href="cart.html">Your basket</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Sol &amp; Sombra · Student project for CPU4104 Web Development</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
